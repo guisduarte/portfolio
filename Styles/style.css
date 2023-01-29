@@ -1,24 +1,30 @@
-header {
-    display: flex;
-    justify-content: space-between;
+body {
     background-color: rgba(0, 0, 0, 0.767);
     color: white;
 }
 
+/*Cabeçalho*/
+
+header {
+    display: flex;
+    justify-content: space-between;   
+    font-size: 20px; 
+}
+
 header > h1 {
-    margin: 20px; 
+    margin: 20px;    
 }
 
 ul {
     display: flex;
     margin-right: 50px;
-
 }
 
 li {
     padding: 20px;
 }
 
+/*Principal*/
 .imagem {
     min-height: 80vh;
     background-color: rgb(51, 51, 51);
@@ -46,17 +52,59 @@ li {
     font-size: 30px;
 }
 
-.portfolio {
+/*Sobre Mim*/
+
+.sobre__mim {    
     min-height: 100vh;
     margin-top: 8em;
-
-}
-
-.portfolio > h1 {
-    text-align: center;
     margin-bottom: 2em;
 }
 
-.portfolio > p {
+.sobre__mim > h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2em;
+}
+
+.img-texto {
+    display: flex;    
+}
+
+#minha-img {
+    margin-left: 40px;
+}
+
+.img-texto > p {    
+    width: 700px;
+    margin-left: 40px;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+/*Portfolio*/
+.portfolio {   
+    min-height: 100vh;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
     
+}
+
+.card {
+    margin-top: em;
+    width: 350px;
+    height: 350px;
+    border: 1px solid white;
+    margin-left: 20px;
+    
+}
+
+.portfolio > h1 {    
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2em;
+
 }
