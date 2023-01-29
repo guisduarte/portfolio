@@ -103,10 +103,48 @@ li {
     width: 350px;
     height: 350px;
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 5px;    
+}
+.card:hover {    
+    transform: scale(1.1);
+    transition: 1s;
+    filter: brightness(1.0);
 }
 
 #card1 {
     background-image: url(../img/CalculadoraJS.JPG);
     background-size: contain;
 }
+
+.container__card{
+    width: 350px;
+    height: 350px;
+    opacity: 0;    
+}
+
+.container__card:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    filter: brightness(1.0);
+    opacity: 1;
+}
+
+.container__card > a {    
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;    
+    background: transparent;
+    
+}
+
+.container__card > a > span {
+    display: inline-block;
+    margin: 150px 0px 0px 50px;
+    
+}
+
+
+
+
+
