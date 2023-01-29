@@ -87,24 +87,26 @@ li {
     min-height: 100vh;
 }
 
-.cards{
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.card {
-    margin-top: em;
-    width: 350px;
-    height: 350px;
-    border: 1px solid white;
-    margin-left: 20px;
-    
-}
-
 .portfolio > h1 {    
     text-align: center;
     font-size: 3rem;
     margin-bottom: 2em;
 
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {   
+    width: 350px;
+    height: 350px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#card1 {
+    background-image: url(../img/CalculadoraJS.JPG);
+    background-size: contain;
 }
