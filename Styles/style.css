@@ -111,11 +111,6 @@ li {
     filter: brightness(1.0);
 }
 
-#card1 {
-    background-image: url(../img/CalculadoraJS.JPG);
-    background-size: contain;
-}
-
 .container__card{
     width: 350px;
     height: 350px;
@@ -144,7 +139,14 @@ li {
     
 }
 
+#card1 {
+    background-image: url(../img/CalculadoraJS.JPG);
+    background-size: contain;
+}
 
-
-
+#card2 {
+    background-image: url(../img/mochila-de-viagem.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
