@@ -60,7 +60,7 @@ li {
     margin-bottom: 2em;
 }
 
-.sobre__mim > h1 {
+.sobre__mim > h2 {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 2em;
@@ -87,7 +87,7 @@ li {
     min-height: 100vh;
 }
 
-.portfolio > h1 {    
+.portfolio > h2 {    
     text-align: center;
     font-size: 3rem;
     margin-bottom: 2em;
@@ -97,18 +97,20 @@ li {
 .cards{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .card {   
     width: 350px;
     height: 350px;
     border: 1px solid white;
-    border-radius: 5px;    
+    border-radius: 5px;
+    margin-bottom: 40px;  
 }
 .card:hover {    
     transform: scale(1.1);
     transition: 1s;
-    filter: brightness(1.0);
+    
 }
 
 .container__card{
@@ -119,9 +121,8 @@ li {
 
 .container__card:hover {
     transform: scale(1.1);
-    transition: 1s;
-    filter: brightness(1.0);
-    opacity: 1;
+    transition: 1s;    
+    opacity: 1;    
 }
 
 .container__card > a {    
@@ -131,12 +132,18 @@ li {
     font-weight: bold;    
     background: transparent;
     
+    
 }
 
 .container__card > a > span {
     display: inline-block;
     margin: 150px 0px 0px 50px;
-    
+    text-transform: uppercase;    
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
 }
 
 #card1 {
@@ -150,3 +157,32 @@ li {
     background-repeat: no-repeat;
 }
 
+#card3 {
+    background-image: url(../img/progresso.jpg);
+    background-size: contain;
+}
+
+#card4 {
+    background-image: url(../img/progresso.jpg);
+    background-size: contain;
+}
+
+#card5 {
+    background-image: url(../img/progresso.jpg);
+    background-size: contain;
+}
+
+#card6 {
+    background-image: url(../img/progresso.jpg);
+    background-size: contain;
+}
+
+#card7 {
+    background-image: url(../img/progresso.jpg);
+    background-size: contain;
+}
+
+#card8 {
+    background-image: url(../img/progresso.jpg);
+    background-size: contain;
+}
