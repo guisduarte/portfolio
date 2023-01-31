@@ -8,20 +8,34 @@ body {
 header {
     display: flex;
     justify-content: space-between;   
-    font-size: 20px; 
+    font-size: 20px;       
 }
 
 header > h1 {
-    margin: 20px;    
+    margin: 20px; 
+      
 }
 
-ul {
+header  ul {
     display: flex;
     margin-right: 50px;
+    
 }
 
-li {
-    padding: 20px;
+.menu {
+    padding-top: 20px;
+    cursor: pointer; 
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: aqua;
 }
 
 /*Principal*/
@@ -91,32 +105,31 @@ li {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 2em;
-
 }
 
 .cards{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
 }
 
 .card {   
     width: 350px;
     height: 350px;
-    border: 1px solid white;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    box-shadow: 4px 3px 5px black;
     border-radius: 5px;
-    margin-bottom: 40px;  
+    margin-bottom: 40px;      
 }
 .card:hover {    
     transform: scale(1.1);
     transition: 1s;
-    
 }
 
 .container__card{
     width: 350px;
     height: 350px;
-    opacity: 0;    
+    opacity: 0; 
 }
 
 .container__card:hover {
@@ -130,21 +143,24 @@ li {
     color: black;
     font-size: 18px;
     font-weight: bold;    
-    background: transparent;
-    
-    
+    background: transparent;    
 }
 
-.container__card > a > span {
-    display: inline-block;
-    margin: 150px 0px 0px 50px;
-    text-transform: uppercase;    
+.container__card  span {
+    display: inline-block;    
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: blue;
     color: white;
     padding: 10px;
 }
+
+.container__links-btn {
+    margin: 160px 0px 0px 100px; 
+    width: 160px;
+    height: 50px;    
+}
+
 
 #card1 {
     background-image: url(../img/CalculadoraJS.JPG);
@@ -153,7 +169,7 @@ li {
 
 #card2 {
     background-image: url(../img/mochila-de-viagem.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -185,4 +201,33 @@ li {
 #card8 {
     background-image: url(../img/progresso.jpg);
     background-size: contain;
+}
+
+/*Contato*/
+
+footer {  
+    min-height: 50vh; 
+    margin-top: 2em; 
+    border-top: 1px solid black;  
+}
+
+footer > h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 1em 0 1em 0;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer li {
+    font-size: 2rem;
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
 }
