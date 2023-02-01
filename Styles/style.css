@@ -108,18 +108,19 @@ header  ul {
 }
 
 .cards{
-    display: flex;
+    display: flex;    
     justify-content: space-evenly;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
 }
 
 .card {   
-    width: 350px;
-    height: 350px;
+    width: 250px; 
+    height: 250px;
     border: 1px solid rgba(0, 0, 0, 0.274);
     box-shadow: 4px 3px 5px black;
     border-radius: 5px;
-    margin-bottom: 40px;      
+    margin-bottom: 40px;  
+    
 }
 .card:hover {    
     transform: scale(1.1);
@@ -127,9 +128,11 @@ header  ul {
 }
 
 .container__card{
-    width: 350px;
-    height: 350px;
-    opacity: 0; 
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+      
 }
 
 .container__card:hover {
@@ -156,9 +159,9 @@ header  ul {
 }
 
 .container__links-btn {
-    margin: 160px 0px 0px 100px; 
+    margin: 102px 0px 0px 45px; 
     width: 160px;
-    height: 50px;    
+    height: 50px;        
 }
 
 
@@ -203,6 +206,16 @@ header  ul {
     background-size: contain;
 }
 
+#card9 {
+    background-image: url(../img/progresso.jpg);
+    background-size: contain;
+}
+
+#card10 {
+    background-image: url(../img/progresso.jpg);
+    background-size: contain;
+}
+
 /*Contato*/
 
 footer {  
@@ -219,7 +232,7 @@ footer > h2 {
 
 footer > ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 footer li {
@@ -228,6 +241,6 @@ footer li {
 
 footer > div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 1em;
 }
