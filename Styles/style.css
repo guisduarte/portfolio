@@ -119,7 +119,7 @@ header  ul {
     border: 1px solid rgba(0, 0, 0, 0.274);
     box-shadow: 4px 3px 5px black;
     border-radius: 5px;
-    margin-bottom: 40px;  
+    margin-bottom: 150px;  
     
 }
 .card:hover {    
@@ -164,6 +164,9 @@ header  ul {
     height: 50px;        
 }
 
+.card-txt {
+    margin-top: 20px;
+}
 
 #card1 {
     background-image: url(../img/CalculadoraJS.JPG);
