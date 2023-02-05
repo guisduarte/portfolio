@@ -180,8 +180,9 @@ header  ul {
 }
 
 #card3 {
-    background-image: url(../img/progresso.jpg);
+    background-image: url(../img/banda.JPG);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #card4 {
