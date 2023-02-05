@@ -193,7 +193,7 @@ header  ul {
 
 #card3 {
     background-image: url(../img/banda.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
