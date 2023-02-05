@@ -64,7 +64,19 @@ header  ul {
 
 .titulo__principal > h2 {
     font-size: 30px;
+    margin-bottom: 20px;
 }
+
+.titulo__principal a {
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin: 10px 10px; 
+}
+
 
 /*Sobre Mim*/
 
@@ -165,7 +177,7 @@ header  ul {
 }
 
 .card-txt {
-    margin-top: 20px;
+    margin-top: 20px;    
 }
 
 #card1 {
@@ -186,8 +198,9 @@ header  ul {
 }
 
 #card4 {
-    background-image: url(../img/progresso.jpg);
-    background-size: contain;
+    background-image: url(../img/alura-plus.JPG) ;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #card5 {
