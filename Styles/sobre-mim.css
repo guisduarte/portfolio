@@ -101,16 +101,9 @@
 
 @media (max-width: 540px) {
     .img-texto > p {    
-        width: 400px;
+        width: 340px;
         font-size: 1.3rem;      
     }
 }
 
-@media (max-width: 375px) {
-    .img-texto > p {    
-        width: 340px;
-        font-size: 1.3rem;   
-
-    }
-}
 
