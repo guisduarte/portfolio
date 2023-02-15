@@ -101,9 +101,9 @@
 
 @media (max-width: 540px) {
     .img-texto > p {    
-        width: 340px;
-        font-size: 1.3rem;      
+        width: 400px;
+        font-size: 1.3rem;  
+        padding: 30px;      
     }
 }
-
 
