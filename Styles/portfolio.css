@@ -1,0 +1,125 @@
+/*Portfolio*/
+
+.portfolio {   
+    min-height: 100vh;
+}
+
+.portfolio > h2 {    
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2em;
+}
+
+.cards{
+    display: flex;    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {   
+    width: 250px; 
+    height: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    box-shadow: 4px 3px 5px black;
+    border-radius: 5px;
+    margin-bottom: 150px;  
+    
+}
+.card:hover {    
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.container__card{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+      
+}
+
+.container__card:hover {
+    transform: scale(1.1);
+    transition: 1s;    
+    opacity: 1;    
+}
+
+.container__card > a {    
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;    
+    background: transparent;    
+}
+
+.container__card  span {
+    display: inline-block;    
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+.container__links-btn {
+    margin: 102px 0px 0px 45px; 
+    width: 160px;
+    height: 50px;        
+}
+
+.card-txt {
+    margin-top: 20px;    
+}
+
+#card1 {
+    background-image: url(../img/CalculadoraJS.JPG);
+    background-size: contain;
+}
+
+#card2 {
+    background-image: url(../img/mochila-de-viagem.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#card3 {
+    background-image: url(../img/banda.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#card4 {
+    background-image: url(../img/alura-plus.JPG) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#card5 {
+    background-image: url(../img/progresso.jpg);
+    background-size: contain;
+}
+
+#card6 {
+    background-image: url(../img/progresso.jpg);
+    background-size: contain;
+}
+
+#card7 {
+    background-image: url(../img/progresso.jpg);
+    background-size: contain;
+}
+
+#card8 {
+    background-image: url(../img/progresso.jpg);
+    background-size: contain;
+}
+
+#card9 {
+    background-image: url(../img/progresso.jpg);
+    background-size: contain;
+}
+
+#card10 {
+    background-image: url(../img/progresso.jpg);
+    background-size: contain;
+}

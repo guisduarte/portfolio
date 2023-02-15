@@ -11,216 +11,244 @@
 <body>
     <header>
         <h1>Guilherme Santana</h1>
+        <span id="botao-menu-hamburguer">
+            <img src="img/menu.png" alt="imagem do menu hamburguer" width="50px" height="50px" > 
+        </span>              
         <nav class="menu" >
-            <ul>
+            <ul class="menu-lista">
                 <li>
                     <a href="#">Home</a>
                 </li>
                 
                 <li>
-                    <a id="btn-sobre-mim" data-nome="sobre-mim">Sobre Mim</a>
+                    <a href="#sobre-mim" >Sobre Mim</a>
                 </li>
 
                 <li>
-                    <a id="btn-portfolio" data-nome="portfolio-id">Portfólio</a>
+                    <a href="#portfolio" >Portfólio</a>
                 </li>
 
                 <li>
-                    <a id="btn-contato" data-nome="contato">Contato</a>
+                    <a href="#contato" >Contato</a>
                 </li>
-            </ul>
+            </ul>           
         </nav>
+
     </header>
 
-    <section class="imagem" id="img01">
-        <div class="titulo__principal">
-            <h1 >Guilherme Santana</h1>
-            <h2>Desenvolvedor Front-end</h2>
-            <a href="https://github.com/guisduarte" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/guisduarte/" target="_blank">LinkedIn</a>
-        </div>
-    </section>
+    <main>
+        <section class="imagem" id="img01">            
+            <div id="container__menu-escondido">
+                <nav class="menu__link" id="menu-escondido">
+                    <ul class="menu-lista__link">
+                        <li>
+                            <a >Home</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#sobre-mim" >Sobre Mim</a>
+                        </li>
+        
+                        <li>
+                            <a href="#portfolio" >Portfólio</a>
+                        </li>
+        
+                        <li>
+                            <a href="#contato" >Contato</a>
+                        </li>
+                    </ul>           
+                </nav>
+            </div> 
 
-    <section class="sobre__mim" id="sobre-mim">
-        <h2>Sobre Mim</h2>
-        <div class="img-texto">
-            <img src="img/foto-sem-fundo.png" alt="" id="minha-img">
-            <p>Trabalhando em grandes empresas como Ternium, Petrobras, e CEDAE. E com experiências na área administrativa e como projetista civil, participei de projetos de grande porte como o "As Built" da Siderúrgica Ternium Brasil, e projeto ambiental para o destino correto do esgoto das residências a rede pública de esgoto pela CEDAE. Atualmente estou em transição de carreira para área da tecnologia. Desde que me interessei na área da programação, estudo diariamente  para conseguir minha primeira oportunidade. Venho desenvolvendo projetos para colocar em prática meu aprendizado e estou pronto para somar com sua equipe de desenvolvedores.</p>            
-        </div>
-    </section>
+            <div class="titulo__principal">
+                <h1 >Guilherme Santana</h1>
+                <h2>Desenvolvedor Front-end</h2>
+                <a href="https://github.com/guisduarte" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/guisduarte/" target="_blank">LinkedIn</a>
+            </div>
 
-    <section class="portfolio" id="portfolio-id">
-        <h2>Portfolio</h2>
-        <div class="cards">                       
-            <div class="card" id="card1">
+        </section>
+
+        <section class="sobre__mim" id="sobre-mim" >
+            <h2>Sobre Mim</h2>
+            <div class="img-texto">
+                <img src="img/foto-sem-fundo.png" alt="" id="minha-img">
+                <p>Trabalhando em grandes empresas como Ternium, Petrobras, e CEDAE. E com experiências na área administrativa e como projetista civil, participei de projetos de grande porte como o "As Built" da Siderúrgica Ternium Brasil, e projeto ambiental para o destino correto do esgoto das residências a rede pública de esgoto pela CEDAE. Atualmente estou em transição de carreira para área da tecnologia. Desde que me interessei na área da programação, estudo diariamente  para conseguir minha primeira oportunidade. Venho desenvolvendo projetos para colocar em prática meu aprendizado e estou pronto para somar com sua equipe de desenvolvedores.</p>            
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="cards">                       
+                <div class="card" id="card1">
+                        <div class="container__card">
+                            <div class="container__links-btn">
+                                <a href="https://calculadora-js-weld.vercel.app/" target="_blank">
+                                    <span>Projeto</span>
+                                </a>
+                                
+                                <a href="https://github.com/guisduarte/calculadora-js" target="_blank">
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="card-txt">Proejto Calculadora feita com Javascript. Tecnologias utilizadas: <br> <br>
+                            <img src="img/html.png" alt="" width="40px" height="40px">
+                            <img src="img/css.png" alt="" width="40px" height="40px">
+                            <img src="img/js.png" alt="" width="40px" height="40px">
+                        </p> 
+                </div>
+
+                <div class="card" id="card2">
                     <div class="container__card">
                         <div class="container__links-btn">
-                            <a href="https://calculadora-js-weld.vercel.app/" target="_blank">
+                            <a href="https://guisduarte.github.io/mochila-de-viagem/" target="_blank">
                                 <span>Projeto</span>
                             </a>
                             
-                            <a href="https://github.com/guisduarte/calculadora-js" target="_blank">
+                            <a href="https://github.com/guisduarte/mochila-de-viagem" target="_blank">
                                 <span>GitHub</span>
                             </a>
                         </div>
                     </div>
-                    <p class="card-txt">Proejto Calculadora feita com Javascript. Tecnologias utilizadas: <br> <br>
-                        <img src="img/html.png" alt="" width="40px" height="40px">
-                        <img src="img/css.png" alt="" width="40px" height="40px">
+                    <p class="card-txt"> Proejto Mochila de viagem, desenvolvido durante o curso da Alura. Tecnologias utilizadas: <br> <br>                    
                         <img src="img/js.png" alt="" width="40px" height="40px">
                     </p> 
-            </div>
 
-            <div class="card" id="card2">
-                <div class="container__card">
-                    <div class="container__links-btn">
-                        <a href="https://guisduarte.github.io/mochila-de-viagem/" target="_blank">
-                            <span>Projeto</span>
-                        </a>
+                </div>
+
+                <div class="card" id="card3">
+                    <div class="container__card">
+                            <div class="container__links-btn">
+                                <a href="https://projeto-banda.vercel.app/" target="_blank">
+                                    <span>Projeto</span>
+                                </a>
+                                
+                                <a href="https://github.com/guisduarte/projeto-banda" target="_blank">
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+
+                    </div>
+
+                    <p class="card-txt">Proejto site para bandas, desenvolvido como projeto final no curso da Estação Hack. Tecnologias utilizadas: <br> <br>                    
+                        <img src="img/html.png" alt="" width="40px" height="40px">
+                        <img src="img/css.png" alt="" width="40px" height="40px">                    
+                    </p> 
+
+                </div>
+
+                <div class="card" id="card4">
+                    <div class="container__card">
+                            <div class="container__links-btn">
+                                <a href="https://aluraplus-guisduarte.vercel.app/" target="_blank">
+                                    <span>Projeto</span>
+                                </a>
+                                
+                                <a href="https://github.com/guisduarte/aluraplus" target="_blank">
+                                    <span>GitHub</span>
+                                </a>
+                            </div>                        
+                    </div>                 
+                    <p class="card-txt">Proejto site AluraPlus desenvolvido durante o curso da Alura . Tecnologias utilizadas: <br> <br>
+                        <img src="img/html.png" alt="" width="40px" height="40px">
+                        <img src="img/css.png" alt="" width="40px" height="40px">
                         
-                        <a href="https://github.com/guisduarte/mochila-de-viagem" target="_blank">
-                            <span>GitHub</span>
-                        </a>
-                    </div>
-                </div>
-                <p class="card-txt"> Proejto Mochila de viagem, desenvolvido durante o curso da Alura. Tecnologias utilizadas: <br> <br>                    
-                    <img src="img/js.png" alt="" width="40px" height="40px">
-                </p> 
-
-            </div>
-
-            <div class="card" id="card3">
-                <div class="container__card">
-                        <div class="container__links-btn">
-                            <a href="https://projeto-banda.vercel.app/" target="_blank">
-                                <span>Projeto</span>
-                            </a>
-                            
-                            <a href="https://github.com/guisduarte/projeto-banda" target="_blank">
-                                <span>GitHub</span>
-                            </a>
-                        </div>
-
+                    </p> 
                 </div>
 
-                <p class="card-txt">Proejto site para bandas, desenvolvido como projeto final no curso da Estação Hack. Tecnologias utilizadas: <br> <br>                    
-                    <img src="img/html.png" alt="" width="40px" height="40px">
-                    <img src="img/css.png" alt="" width="40px" height="40px">                    
-                </p> 
-
-            </div>
-
-            <div class="card" id="card4">
-                <div class="container__card">
-                        <div class="container__links-btn">
-                            <a href="https://aluraplus-guisduarte.vercel.app/" target="_blank">
-                                <span>Projeto</span>
-                            </a>
-                            
-                            <a href="https://github.com/guisduarte/aluraplus" target="_blank">
-                                <span>GitHub</span>
-                            </a>
-                        </div>                        
-                </div>                 
-                <p class="card-txt">Proejto site AluraPlus desenvolvido durante o curso da Alura . Tecnologias utilizadas: <br> <br>
-                    <img src="img/html.png" alt="" width="40px" height="40px">
-                    <img src="img/css.png" alt="" width="40px" height="40px">
-                    
-                </p> 
-            </div>
-
-            <div class="card" id="card5">
-                <div class="container__card">
-                    <div class="container__links-btn">
-                        <a href="#" target="">
-                                <span>Projeto</span>
-                        </a>
-                            
-                        <a href="#" target="">
-                                <span>GitHub</span>
-                        </a>                            
-                    </div>
-                </div>                    
-            </div>
-
-            <div class="card" id="card6">
-                <div class="container__card">
+                <div class="card" id="card5">
+                    <div class="container__card">
                         <div class="container__links-btn">
                             <a href="#" target="">
-                                <span>Projeto</span>
+                                    <span>Projeto</span>
                             </a>
-                            
+                                
                             <a href="#" target="">
-                                <span>GitHub</span>
-                            </a>
+                                    <span>GitHub</span>
+                            </a>                            
                         </div>
+                    </div>                    
+                </div>
 
-                </div>                    
+                <div class="card" id="card6">
+                    <div class="container__card">
+                            <div class="container__links-btn">
+                                <a href="#" target="">
+                                    <span>Projeto</span>
+                                </a>
+                                
+                                <a href="#" target="">
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+
+                    </div>                    
+                </div>
+
+                <div class="card" id="card7">
+                    <div class="container__card">
+                            <div class="container__links-btn">
+                                <a href="#" target="">
+                                    <span>Projeto</span>
+                                </a>
+                                
+                                <a href="#" target="">
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+
+                    </div>                    
+                </div>
+
+                <div class="card" id="card8">
+                    <div class="container__card">
+                            <div class="container__links-btn">
+                                <a href="#" target="">
+                                    <span>Projeto</span>
+                                </a>
+                                
+                                <a href="#" target="">
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+
+                    </div>                    
+                </div>
+
+                <div class="card" id="card9">
+                    <div class="container__card">
+                            <div class="container__links-btn">
+                                <a href="#" target="">
+                                    <span>Projeto</span>
+                                </a>
+                                
+                                <a href="#" target="">
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+
+                    </div>                    
+                </div>
+
+                <div class="card" id="card10">
+                    <div class="container__card">
+                            <div class="container__links-btn">
+                                <a href="#" target="">
+                                    <span>Projeto</span>
+                                </a>
+                                
+                                <a href="#" target="">
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+
+                    </div>                    
+                </div>
+
             </div>
-
-            <div class="card" id="card7">
-                <div class="container__card">
-                        <div class="container__links-btn">
-                            <a href="#" target="">
-                                <span>Projeto</span>
-                            </a>
-                            
-                            <a href="#" target="">
-                                <span>GitHub</span>
-                            </a>
-                        </div>
-
-                </div>                    
-            </div>
-
-            <div class="card" id="card8">
-                <div class="container__card">
-                        <div class="container__links-btn">
-                            <a href="#" target="">
-                                <span>Projeto</span>
-                            </a>
-                            
-                            <a href="#" target="">
-                                <span>GitHub</span>
-                            </a>
-                        </div>
-
-                </div>                    
-            </div>
-
-            <div class="card" id="card9">
-                <div class="container__card">
-                        <div class="container__links-btn">
-                            <a href="#" target="">
-                                <span>Projeto</span>
-                            </a>
-                            
-                            <a href="#" target="">
-                                <span>GitHub</span>
-                            </a>
-                        </div>
-
-                </div>                    
-            </div>
-
-            <div class="card" id="card10">
-                <div class="container__card">
-                        <div class="container__links-btn">
-                            <a href="#" target="">
-                                <span>Projeto</span>
-                            </a>
-                            
-                            <a href="#" target="">
-                                <span>GitHub</span>
-                            </a>
-                        </div>
-
-                </div>                    
-            </div>
-
-        </div>
-    </section>
-
+        </section>
+    </main>  
     <footer id="contato">
         <h2>Contato</h2>
         <ul>
@@ -242,6 +270,5 @@
     <span class="btn-voltar" ></span>
 
     <script src="JS/main.js"></script>
-
 </body>
 </html>

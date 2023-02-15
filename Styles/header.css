@@ -1,0 +1,102 @@
+
+/*Cabeçalho*/
+
+header {
+    display: flex;
+    justify-content: space-between;   
+    font-size: 20px;         
+}
+
+header > h1 {
+    margin: 20px; 
+      
+}
+
+header  ul {
+    display: flex;
+    margin-right: 50px;
+    
+}
+
+.menu {
+    display: flex;
+    padding-top: 20px;
+    cursor: pointer; 
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: aqua;
+}
+
+/*Menu escondido*/
+
+#botao-menu-hamburguer{
+    display: none;
+    
+}
+
+#container__menu-escondido{
+    display: none;
+}
+
+@media (max-width: 768px ) {    
+    .menu { 
+        display: none;            
+        font-size: 18px;
+        padding: 20px;
+        position: relative;
+    }
+
+    header>h1 {
+        margin-left: 80px;
+    }
+
+    #botao-menu-hamburguer{
+        display:  inline;
+        position: absolute;        
+        cursor: pointer;   
+    }
+    
+    #container__menu-escondido{
+        display: block;
+        background-color: rgba(0, 0, 0, 0.767);
+        width: 50vw;
+        height: 250px;        
+        position: absolute;
+    }
+    
+    .menu-lista__link{
+        width: 25vw;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 40px;
+        
+    }
+    
+    .menu-lista__link li {
+        text-decoration: none;
+        list-style: none;
+        font-size: 20px;
+       
+    }
+    
+    .menu-lista__link li a {
+        text-decoration: none;
+        color: white;
+    }
+    .menu-lista__link li a:hover{
+        cursor: pointer;
+        color: aqua;
+    }
+
+}
+
