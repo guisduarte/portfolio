@@ -1,6 +1,5 @@
 
-// Voltar ao topo
-
+// Botão Voltar ao topo
 const btnVoltar = document.querySelector(".btn-voltar");
 btnVoltar.addEventListener("click", function() {
     //window.scrollTo(0, 0,);
@@ -37,7 +36,6 @@ function scrollToPosition(to) {
   smoothScrollTo(0, to);
 }
 
-
 //Menu Hamburguer
 const botaoMenuHamburguer = document.getElementById("botao-menu-hamburguer");
 const menu = document.getElementById("container__menu-escondido");
@@ -47,9 +45,9 @@ botaoMenuHamburguer.addEventListener("click", mostraMenu);
 function mostraMenu() {
     if(menu.style.display === 'none') {
         menu.style.display = 'block';
-        this.style.backgroundColor = 'aqua';
+         this.style.backgroundColor = 'aqua';
     } else {
         menu.style.display = 'none';
-        this.style.backgroundColor = '';
+         this.style.backgroundColor = '';
     }
 }
