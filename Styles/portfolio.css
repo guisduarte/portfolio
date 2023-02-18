@@ -14,6 +14,7 @@
     display: flex;    
     justify-content: space-evenly;
     flex-wrap: wrap;
+    
 }
 
 .card {   
@@ -22,7 +23,7 @@
     border: 1px solid rgba(0, 0, 0, 0.274);
     box-shadow: 4px 3px 5px black;
     border-radius: 5px;
-    margin-bottom: 150px;  
+    margin-bottom: 150px; 
     
 }
 .card:hover {    
@@ -34,8 +35,7 @@
     display: inline-block;
     width: 250px;
     height: 250px;
-    opacity: 0;
-      
+    opacity: 0;    
 }
 
 .container__card:hover {
@@ -64,16 +64,16 @@
 .container__links-btn {
     margin: 102px 0px 0px 45px; 
     width: 160px;
-    height: 50px;        
+    height: 50px;           
 }
 
 .card-txt {
-    margin-top: 20px;    
+    margin-top: 20px;     
 }
 
 #card1 {
     background-image: url(../img/CalculadoraJS.JPG);
-    background-size: contain;
+    background-size: contain;    
 }
 
 #card2 {
@@ -85,7 +85,7 @@
 #card3 {
     background-image: url(../img/banda.jpg);
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
 }
 
 #card4 {
