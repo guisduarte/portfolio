@@ -40,6 +40,8 @@ function scrollToPosition(to) {
 const botaoMenuHamburguer = document.getElementById("botao-menu-hamburguer");
 const menu = document.getElementById("container__menu-escondido");
 
+menu.style.display = 'none';
+
 botaoMenuHamburguer.addEventListener("click", mostraMenu);
 
 function mostraMenu() {
@@ -51,3 +53,6 @@ function mostraMenu() {
          this.style.backgroundColor = '';
     }
 }
+
+//
+
