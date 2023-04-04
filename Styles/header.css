@@ -55,10 +55,11 @@ header  ul {
         margin-left: 80px;
     }
 
-    #botao-menu-hamburguer{
-        display:  inline;
+    #botao-menu-hamburguer{        
+        display:  inline;        
         position: absolute;        
         cursor: pointer;   
+        margin-top: 10px;
     }
     
 }
