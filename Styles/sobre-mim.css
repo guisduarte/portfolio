@@ -24,6 +24,8 @@
     width: 450px;
     height: 450px;
     margin: 0 auto;
+    animation: flutuaImagem 4s ease-in-out infinite;
+    animation-delay: 3.1s;
 }
 
 .img-texto > p {     
@@ -113,3 +115,14 @@
     }
 }
 
+@keyframes flutuaImagem {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-24px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
