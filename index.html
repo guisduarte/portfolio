@@ -7,15 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="./Styles/reset.css">
     <link rel="stylesheet" href="./Styles/style.css">
+    <script>document.documentElement.className += ' js';</script>
 </head>
 <body>
     <header>
-        <h1>Guilherme Santana</h1>
-        <span id="botao-menu-hamburguer">
-            <img src="img/menu.png" alt="imagem do menu hamburguer" width="50px" height="50px" > 
-        </span>              
+        <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+        <h1>Guilherme Santana</h1>                    
         <nav class="menu" >
-            <ul class="menu-lista">
+            <ul data-menu="list" id="menu">
                 <li>
                     <a href="#">Home</a>
                 </li>
@@ -33,40 +32,17 @@
                 </li>
             </ul>           
         </nav>
-
     </header>
-
     <main>
         <section class="imagem" id="img01">            
-            <div id="container__menu-escondido">
-                <nav class="menu__link" id="menu-escondido">
-                    <ul class="menu-lista__link">
-                        <li>
-                            <a >Home</a>
-                        </li>
-                        
-                        <li>
-                            <a href="#sobre-mim" >Sobre Mim</a>
-                        </li>
-        
-                        <li>
-                            <a href="#portfolio" >Portfólio</a>
-                        </li>
-        
-                        <li>
-                            <a href="#contato" >Contato</a>
-                        </li>
-                    </ul>           
-                </nav>
-            </div> 
-
             <div class="titulo__principal">                
                 <h1>Guilherme Santana</h1>
-                <h2>Desenvolvedor Front-end</h2>
-                <a href="https://github.com/guisduarte" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/guisduarte/" target="_blank">LinkedIn</a>
+                <h2 data-titulo="subtitulo">Desenvolvedor Front-end</h2>
+                <div class="principal__links-btn">
+                    <a href="https://github.com/guisduarte" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/guisduarte/" target="_blank">LinkedIn</a>
+                </div>
             </div>
-
         </section>
 
         <section class="sobre__mim" id="sobre-mim" >

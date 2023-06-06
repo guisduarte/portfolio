@@ -1,0 +1,32 @@
+
+/*Cabeçalho*/
+header {
+    display: flex;
+    justify-content: space-between;   
+    font-size: 20px;         
+}
+
+header > h1 {
+    margin: 20px; 
+}
+
+header  ul {
+    display: flex;
+    margin-right: 50px;  
+}
+
+.menu {
+    display: flex;
+    padding-top: 20px;
+    cursor: pointer;   
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: aqua;
+}

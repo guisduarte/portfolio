@@ -1,0 +1,15 @@
+body {
+    background-color: #3B3B3B;
+    color: white;
+}
+
+@keyframes slideDown {
+    from {
+      opacity: 0;
+      max-height: 0;
+    }
+    to {
+      max-height: 200px;
+      opacity: 1;
+    }
+}

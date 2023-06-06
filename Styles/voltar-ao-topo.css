@@ -1,0 +1,26 @@
+/*Botão voltar ao topo*/
+.btn-voltar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    text-decoration: none; 
+    border-radius: 5px;   
+}
+
+.btn-voltar::after {
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.btn-voltar:hover::after {
+    margin-top:-8px;
+}
