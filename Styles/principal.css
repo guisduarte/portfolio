@@ -24,9 +24,7 @@
 
 .titulo__principal > h2 {
     font-size: 30px;
-    margin-bottom: 20px;
-    position: absolute;
-    margin-left: 18em;
+    margin-bottom: 20px;   
 }
 
 .titulo__principal h1::after {
@@ -45,6 +43,20 @@
 
 .js [data-titulo="subtitulo"].active {
     display: none;
+}
+
+.principal__links-btn {
+    margin-top: 3rem;    
+}
+
+.titulo__principal a {
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin: 10px 10px;     
 }
 
 @keyframes pisca {
@@ -68,16 +80,8 @@
     }
 }
 
-.principal__links-btn {
-    margin-top: 5rem;    
-}
-
-.titulo__principal a {
-    text-decoration: none;
-    background-color: blue;
-    padding: 10px;
-    border-radius: 20px;
-    color: white;
-    font-weight: bold;
-    margin: 10px 10px;     
+@media (max-width: 560px) {
+    .titulo__principal {
+        padding-top: 8em;
+    }  
 }
