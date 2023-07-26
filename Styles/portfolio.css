@@ -126,6 +126,7 @@
 }
 
 #card10 {
-    background-image: url(../img/progresso.jpg);
+    background-image: url(../img/meteora.JPG);
     background-size: contain;
+    background-repeat: no-repeat;
 }
