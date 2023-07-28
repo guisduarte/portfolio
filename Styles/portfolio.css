@@ -10,6 +10,39 @@
     margin-bottom: 2em;
 }
 
+.tecnologias{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tecnologias span {
+    font-size: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.555);
+    border-radius: 1rem;
+    box-shadow: 4px 4px 4px black;
+    padding: 0.75rem;
+    cursor: pointer;
+}
+
+#html {
+    background: linear-gradient(#EE4323, #FDBC1F);
+}
+
+#css {
+    background-color: #005A9C;
+}
+
+#tailwind {
+    background-color:  #06B6D4;
+}
+
+#javaScript {
+    background-color: #F0DA50;
+    
+}
+
 .cards{
     display: flex;    
     justify-content: space-evenly;
