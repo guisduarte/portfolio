@@ -14,6 +14,7 @@
     flex-wrap: wrap;
     gap: 2rem;
     margin-bottom: 2rem;
+    
 }
 
 .tecnologias span {
@@ -43,6 +44,14 @@
 
 #todos {
     background-color: rgba(23, 23, 170, 0.651);
+}
+
+.efeito {
+    transition: transform 0.5s ease;
+}
+
+.efeito:hover {
+    transform: scale(1.2);
 }
 
 .cards{
@@ -112,7 +121,14 @@
 }
 
 .card-txt {
-    margin-top: 20px;     
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;  
+}
+
+.logo-texto {    
+    padding: 8px;
+    text-align: center;
 }
 
 #card1 {
