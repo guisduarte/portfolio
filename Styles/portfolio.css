@@ -42,6 +42,10 @@
     background-color: #F0DA50;
 }
 
+#react {
+    background-color: #61DAFB;
+}
+
 #todos {
     background-color: rgba(23, 23, 170, 0.651);
 }
@@ -184,4 +188,11 @@
     background-image: url(../img/meteora.JPG);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+#card11 {
+    background-image: url(../img/cine-tag.JPG);
+    background-size: contain;    
+    background-repeat: no-repeat;
+
 }
